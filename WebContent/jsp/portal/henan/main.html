@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>安全生产大数据平台</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/G3-all.min.css">
+	<link rel="stylesheet" href="./css/change.css">
+</head>
+<body>
+	<div class="header">
+		<a href="">
+			<img src="./images/logo.png" width="360px" alt="">
+		</a>
+	</div>
+	<div class="head_nav">
+		<a href="">首页</a>                                            
+		<a href="">应用支撑平台</a>
+		<a href="">大数据平台</a>
+		<a href="">数据资源中心</a>
+		<a href="">综合业务统计</a>
+		<a href="">危险源监控统计</a>
+	</div>
+	<div class="iframe_box">
+		<div class="change_bug">
+			<div class="change_box">
+				<div class="change_iframe border_bottom select_this">
+					<span class="img yyzx"></span>
+					<p>应用中心</p>
+				</div>
+				<div class="change_iframe">
+					<span class="img zhgl"></span>
+					<p>数据中心</p>
+				</div>
+			</div>
+		</div>
+		<iframe id="mainFrame1" name="mainFrame1" src="index2.html" class="show_iframe" frameborder="0" allowtransparency="true" height="100%" width="100%"></iframe>
+		<iframe id="mainFrame2" name="mainFrame2" src="index3.html" frameborder="0" allowtransparency="true" height="100%" width="100%"></iframe>
+	</div>
+	<div class="bottom">
+		<img src="./images/bottom_sq.png" width="40px">
+		<span>主管单位:河南省安全生产监督管理局 豫ICP备15021429号-1</span>
+	</div>
+	<script src="./js/jquery-1.9.1.min.js"></script>
+	<script>
+	 setheight();
+	 $(window).resize(function(){
+	   setheight();
+	 });
+	function setheight(){
+		$(".change_box").css("margin-top",($(".change_bug").height()-$(".change_box").height())/3+"px");
+		$(".iframe_box").css("height",document.body.clientHeight-190+"px")
+	}
+	$(".change_iframe").click(function(){
+		if(!$(this).hasClass("select_this")){
+			$(".select_this").removeClass("select_this");
+			$(this).addClass("select_this");
+			$(".show_iframe").removeClass("show_iframe");
+			$(".iframe_box iframe").eq($(this).index()).addClass("show_iframe");
+		}
+	})
+	</script>
+</body>
+</html>

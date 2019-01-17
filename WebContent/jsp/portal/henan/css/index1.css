@@ -1,0 +1,227 @@
+.content_box{
+	width:540px;
+	height:240px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+	background: #fff;
+}
+.box_tit{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	position:relative;
+	border-bottom:1px solid #e0e0e0;
+	position:relative;
+}
+.box_tit:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:14px;
+	left:10px;
+	border-top:6px solid transparent;
+	border-bottom:6px solid transparent;
+	border-left:6px solid #3a77c8;
+}
+.box_tit p{
+	margin-left:25px;
+    display: inline-block;
+    width: auto;
+	padding:0 5px;
+	text-align:center;
+	border-bottom:2px solid  #3a77c8
+}
+.l_more{
+	position:absolute;
+	top:0;
+	right:5px;
+	color:#999999;
+}
+.box_content{
+	width:510px;
+	height:200px;
+	margin:0 auto;
+	font-size:14px;
+}
+.box_content{
+	line-height:28px;
+}
+.tab_change  span{
+	margin-right:10px;
+	cursor:pointer;
+}
+.tab_change  span.tab_select{
+	color:#2d83ea
+}
+.tab_head{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	background:#f7f7f7
+}
+.tab_head ul li{
+	width:100%;
+	height:36px;
+	line-height:36px;
+}
+.tab_box .tab_head span{
+	height:36px;
+	line-height:36px;
+}
+.tab_box span{
+	width:25%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+}
+.tab_box span.long_span{
+	width:35%;
+}
+.tab_box span.short_span{
+	width:15%;
+}
+.tab_cz{
+	margin-top:8px;
+	cursor:pointer
+}
+.tab_box{
+	width:100%;
+	height:auto;
+}
+.tab_box li{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+.tab_box li span{
+	height:30px;
+	line-height:30px;
+}
+.news_list li{
+	width:100%;
+	height:28px;
+	line-height:28px;
+	position:relative;
+}
+.news_list li:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:11px;
+	left:0;
+	width:6px;
+	height:6px;
+	background:#f9b965;
+	border-radius:50%;
+}
+.news_list span{
+	display:inline-block;
+	float:left;
+	text-align:center;
+}
+.news_list .name{
+	width:60%;
+	text-align:left;
+	padding-left:15px;
+}
+.news_list .time{
+	width:30%
+}
+.news_list .cx{
+	width:5%
+}
+.tj_box{
+	width:50%;
+	height:100px;
+	float:left
+}
+.tj_icon{
+	width:80px;
+	height:100%;
+	text-align:center;
+	float:left;
+}
+.tj_icon img{
+	margin-top:14px;
+}
+.tj_num{
+	width:150px;
+	height:100%;
+	float:left
+}
+.tj_num p{
+	height:30px;
+	line-height:30px;
+}
+.tj_num p.name{
+	margin-top:15px;
+	color:#333
+}
+.tj_num p.num{
+	font-size:20px;
+}
+.tj_num p .color0{
+	color:#ffaf02
+}
+.tj_num p .color1{
+	color:#999999
+}
+.tj_num p .color2{
+	color:#2f9fe7
+}
+.tj_num p .color3{
+	color:#e5493c
+}
+.tj_num p .color4{
+	color:#bd72d7
+}
+.color5{
+	color:#ff8900
+}
+.wp_zt{
+	width:30%;
+	height:100%;
+	float:left;
+}
+.wp_xq{
+	width:70%;
+	height:100%;
+	float:left
+}
+#chart1{
+	width:100%;
+	height:60%;
+}
+.wp_infor{
+	width:100%;
+	height:40%;
+}
+.wp_infor p{
+	line-height: 5px;
+    height: 24px;
+    text-align: center;
+}
+.wp_box{
+	width:100%;
+	height:33.33%
+}
+.wp_box p{
+	height:24px;
+	line-height:24px;
+}
+.wp_box p span{
+	display:inline-block
+}
+.wp_box p .name{
+	color:#333
+}
+.wp_box p .num{
+	float:right;
+	color:#0263c2
+}
+.wp_chart{
+	width:100%;
+	height:36px;
+}

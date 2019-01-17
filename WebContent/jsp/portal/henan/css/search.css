@@ -1,0 +1,28 @@
+.content_main{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+}
+.search_box{
+	width:100%;
+	height:auto;
+	clear:both;
+}
+.search_line{
+	width:33.33%;
+	height:46px;
+	line-height:46px;
+	float:left;
+}
+.search_name{
+	width:40%;
+	height:100%;
+	float:left;
+	text-align:right;
+	padding-right:15px;
+}
+.search_input{
+	width:60%;
+	height:100%;
+	float:left;
+}

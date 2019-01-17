@@ -1,0 +1,28 @@
+.article_nav {
+	
+}
+
+.article_main {
+	min-height: 500px;
+}
+
+.article_pager {
+	
+}
+
+.article_detail {
+    padding: 20px 30px;
+    margin-bottom: 10px;
+}
+.biaoti {
+	margin: 20px 0;
+}
+.shijian {
+	text-align: center;
+}
+.zhengwen {
+	min-height: 300px;
+}
+.fujian {
+	margin: 10px 0;
+}
